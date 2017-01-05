@@ -14,7 +14,7 @@ namespace MyMonkey
     {
         public static Hero target;
         public static Hero me;
-        private static readonly Menu Menu = new Menu("Bowen", "Bowen", true, "npc_dota_hero_phantom_lancer", true);
+        private static readonly Menu Menu = new Menu("Lancer", "Lancer", true, "npc_dota_hero_phantom_lancer", true);
 
         private static List<Nagaboy> NagaBoys = new List<Nagaboy>();
         
