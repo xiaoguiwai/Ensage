@@ -21,8 +21,8 @@ namespace MyMonkey
         
         static void Main(string[] args)
         {
-            Menu.AddItem(new MenuItem("FFF", "FFF").SetValue(new KeyBind('J', KeyBindType.Press)));
-            Menu.AddItem(new MenuItem("KillJungleFirst", "KillJungleFirst").SetValue(new KeyBind('J', KeyBindType.Toggle)));
+            //Menu.AddItem(new MenuItem("FFF", "FFF").SetValue(new KeyBind('J', KeyBindType.Press)));
+            //Menu.AddItem(new MenuItem("KillJungleFirst", "KillJungleFirst").SetValue(new KeyBind('J', KeyBindType.Toggle)));
             Menu.AddItem(new MenuItem("Fight", "Fight").SetValue(new KeyBind('J', KeyBindType.Toggle)));
             Menu.AddItem(new MenuItem("PushSingleLane", "PushSingleLane").SetValue(new KeyBind('J', KeyBindType.Toggle)));
             Menu.AddToMainMenu();

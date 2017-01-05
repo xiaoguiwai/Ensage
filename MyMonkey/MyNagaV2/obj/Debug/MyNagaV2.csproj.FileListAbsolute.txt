@@ -20,3 +20,6 @@ E:\Users\Biedalian\Desktop\OneDrive\C#\MyMonkey\MyNagaV2\bin\Debug\MyMonkey.exe
 E:\Users\Biedalian\Desktop\OneDrive\C#\MyMonkey\MyNagaV2\bin\Debug\MyMonkey.pdb
 E:\Users\Biedalian\Desktop\OneDrive\C#\MyMonkey\MyNagaV2\obj\Debug\MyMonkey.exe
 E:\Users\Biedalian\Desktop\OneDrive\C#\MyMonkey\MyNagaV2\obj\Debug\MyMonkey.pdb
+E:\Users\Biedalian\Desktop\OneDrive\C#\ENSAGE\Ensage\MyMonkey\MyNagaV2\bin\Debug\MyMonkey.exe.config
+E:\Users\Biedalian\Desktop\OneDrive\C#\ENSAGE\Ensage\MyMonkey\MyNagaV2\obj\Debug\MyMonkey.exe
+E:\Users\Biedalian\Desktop\OneDrive\C#\ENSAGE\Ensage\MyMonkey\MyNagaV2\obj\Debug\MyMonkey.pdb
