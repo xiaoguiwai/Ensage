@@ -68,16 +68,19 @@ namespace MyMonkey
                 //    }
                 //    return;
                 //}
-
-                if (Menu.Item("PushSingleLane").GetValue<KeyBind>().Active)
-                {
-                    nagaboy.PushSingleLane();
-                    Console.WriteLine("push single lane");
-                }
-                if (Menu.Item("Fight").GetValue<KeyBind>().Active&&!Menu.Item("PushSingleLane").GetValue<KeyBind>().Active)
+                if (nagaboy.Boy.IsAlive)
                 {
 
-                    nagaboy.FightFirst();
+                    if (Menu.Item("PushSingleLane").GetValue<KeyBind>().Active)
+                    {
+                        nagaboy.PushSingleLane();
+                        Console.WriteLine("push single lane");
+                    }
+                    if (Menu.Item("Fight").GetValue<KeyBind>().Active && !Menu.Item("PushSingleLane").GetValue<KeyBind>().Active)
+                    {
+
+                        nagaboy.FightFirst();
+                    }
                 }
             }
             
